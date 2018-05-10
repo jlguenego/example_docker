@@ -12,3 +12,17 @@ $ docker ps
 
 Get the container-id before using `docker ps`.
 
+## Start a docker container from an image
+
+If you have an image file, you can create and start a container by giving a container-name to your image.
+
+```
+$ docker run --name <container-name> <image-name>
+```
+
+## Start a docker container previousely stopped
+
+```
+$ docker start <container-name>
+```
+
