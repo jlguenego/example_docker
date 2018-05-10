@@ -1,5 +1,15 @@
 # Docker Examples
 
+## Create a container and run it.
+
+```
+$ docker run -P -d --name <container-name> <image-name>
+```
+
+Note: 
+- options -P is to expose the port where you can.
+- options -d is for detaching (the command do the job and exit)
+
 ## Stop a docker container
 
 ```
