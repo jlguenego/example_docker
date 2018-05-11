@@ -1,0 +1,25 @@
+{
+  "name": "example_docker",
+  "version": "1.0.0",
+  "description": "## Create a container and run it.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlguenego/example_docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlguenego/example_docker/issues"
+  },
+  "homepage": "https://github.com/jlguenego/example_docker#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "serve-index": "^1.9.1"
+  }
+}
